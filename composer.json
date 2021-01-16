@@ -1,0 +1,22 @@
+{
+    "name": "tcgold/test",
+    "authors": [
+        {
+            "name": "Ruslan Aliyev",
+            "email": "ruslan_aliyev_@hotmail.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+	"autoload": {
+		"psr-4": {
+            "Api\\": "api/",
+            "PHPUnit\\": "vendor/phpunit/phpunit/src",
+            "BearClaw\\Warehousing\\": "src/"
+		}
+	}
+}

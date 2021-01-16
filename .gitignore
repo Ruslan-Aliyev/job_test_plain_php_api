@@ -1,0 +1,3 @@
+api/core/Config.php
+/vendor
+.phpunit.result.cache
